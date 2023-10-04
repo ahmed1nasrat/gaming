@@ -1,0 +1,484 @@
+.port{
+background-color: bisque;
+background-image: url(../image/red-dead-redemption-7680x4320-10640.jpg);
+    height: 1150px;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.f{
+    font-size: 55px;
+    font-family: serif;
+    margin-top: 0;
+   color: 3D0C11;
+    padding-top: 200px;
+    text-align: center;
+   
+}
+.red{
+    width: 250px;
+    height: 350px;
+    background-image: url(../image/reddead.jpeg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top:80px ;
+    position: relative;
+
+
+}
+.acv{
+    width: 250px;
+    height: 350px;
+    background-image: url(../image/acv.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+margin-top: -350px;
+margin-left: 200px;
+position: relative;
+overflow: hidden;
+
+}
+.res{
+    width: 250px;
+    height: 350px;
+    background-image: url(../image/Resident_Evil_7_cover_art.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: -350px;
+    margin-left: 1080px;
+    position: relative;
+overflow: hidden;
+}
+.gow{
+    width: 250px;
+    height: 350px;
+    background-image: url(../image/gow.jpeg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top:50px ;
+    position: relative;
+    overflow: hidden;
+}
+.age{
+    width: 250px;
+    height: 350px;
+    background-image: url(../image/Super_hero_art_1920x1080_logo.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+margin-top: -350px;
+margin-left: 200px;
+position: relative;
+overflow: hidden;
+}
+.gta{
+    width: 250px;
+    height: 350px;
+    background-image: url(../image/stray.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: -350px;
+    margin-left: 1080px;
+    position: relative;
+overflow: hidden;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    float: left;
+   
+  }
+  
+  .red:hover .overlay {
+    opacity: 1;
+   
+  }
+
+  
+  .category {
+    color: white;
+    font-size: 20px; 
+    text-align: center;
+  text-transform:capitalize  ;
+  margin-top: -70px;
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+  transition-delay: 0.2s;
+  } 
+  .red:hover .category {
+    opacity: 1; 
+  }
+  .cowboy{
+    font-size: 20px;
+    margin-right: -20px;
+    margin-top: -70px;
+ 
+  }
+
+  .search{
+    font-size: 22px;
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+  }
+  .edit{
+    font-size: 22px;
+    color: blue;    
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+
+  }
+  .red:hover .edit {
+    opacity: 1; 
+  }
+  .red:hover .search {
+    opacity: 1; 
+  }
+
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .acv:hover .overlay {
+    opacity: 1;
+  }
+  
+  .categor {
+    color: white;
+    font-size: 20px; 
+    text-align: center;
+  text-transform:capitalize  ;
+  margin-top: -70px;
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+  transition-delay: 0.2s;
+  }
+  .acv:hover .categor {
+    opacity: 1; 
+  }
+  .searc{
+    font-size: 22px;
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+  }
+  .edi{
+    font-size: 22px;
+    color: blue;    
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+
+  }
+  .acv:hover .edi {
+    opacity: 1; 
+  }
+  .acv:hover .searc {
+    opacity: 1; 
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .res:hover .overlay {
+    opacity: 1;
+  }
+  
+  .catego {
+    color: white;
+    font-size: 20px; 
+    text-align: center;
+  text-transform:capitalize  ;
+  margin-top: -70px;
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+  transition-delay: 0.2s;
+  }
+  .res:hover .catego {
+    opacity: 1; 
+  }
+  .sear{
+    font-size: 22px;
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+  }
+  .ed{
+    font-size: 22px;
+    color: blue;    
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+
+  }
+  .res:hover .ed {
+    opacity: 1; 
+  }
+  .res:hover .sear {
+    opacity: 1; 
+  }
+
+
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .gow:hover .overlay {
+    opacity: 1;
+  }
+  
+  .categ {
+    color: white;
+    font-size: 20px; 
+    text-align: center;
+  text-transform:capitalize  ;
+  margin-top: -70px;
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+  transition-delay: 0.2s;
+  }
+  .gow:hover .categ {
+    opacity: 1; 
+  }
+  .sea{
+    font-size: 22px;
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+  }
+  .eeee{
+    font-size: 22px;
+    color: blue;    
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+
+  }
+  .gow:hover .eeee {
+    opacity: 1; 
+  }
+  .gow:hover .sea {
+    opacity: 1; 
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .age:hover .overlay {
+    opacity: 1;
+  }
+  
+  .cate {
+    color: white;
+    font-size: 20px; 
+    text-align: center;
+  text-transform:capitalize  ;
+  margin-top: -70px;
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+  transition-delay: 0.2s;
+  }
+  .age:hover .cate {
+    opacity: 1; 
+  }
+  .se{
+    font-size: 22px;
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+  }
+  .eeeee{
+    font-size: 22px;
+    color: blue;    
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+
+  }
+  .age:hover .eeeee {
+    opacity: 1; 
+  }
+  .age:hover .se {
+    opacity: 1; 
+  }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .gta:hover .overlay {
+    opacity: 1;
+  }
+  
+  .cat {
+    color: white;
+    font-size: 20px; 
+    text-align: center;
+  text-transform:capitalize  ;
+  margin-top: -70px;
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+  transition-delay: 0.2s;
+  }
+  .gta:hover .cat {
+    opacity: 1; 
+  }
+  .seeee{
+    font-size: 22px;
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+  }
+  .eeeeee{
+    font-size: 22px;
+    color: blue;    
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+
+  }
+  .gta:hover .eeeeee {
+    opacity: 1; 
+   
+  }
+  .gta:hover .seeee {
+    opacity: 1; 
+
+  }

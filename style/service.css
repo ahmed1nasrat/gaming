@@ -1,0 +1,59 @@
+.service{
+height: 700px;
+background-color: black;
+}
+.offer{
+text-align: center;
+font-size: 50px;
+padding-top: 135px;
+color: white;
+}
+
+.i2{
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: gray;
+}
+.frist{
+    
+    width: 350px;
+    height: 180px;
+    border-style: solid;
+    border-color: white;
+    border-width:1px ; 
+    margin-left: 120px;
+    margin-top: 80px;
+float :left;
+
+
+}
+.r{
+    font-size: 25px;
+    color: white;
+    margin-left: 90px;
+    margin-top:-25px ;
+    font-weight: bolder;
+}
+
+.list1{
+      margin-top: -15px;
+     
+      margin-left: 90px;  
+}
+.l{
+    color: gray;
+}
+.secound{
+    
+    width: 350px;
+    height: 180px;
+    border-style: solid;
+    border-color: white;
+    border-width:1px ; 
+    margin-left: 120px;
+    margin-top: 20px;
+float :left;
+
+
+}

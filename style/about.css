@@ -1,0 +1,96 @@
+.about{
+   height: 600px;
+
+background-color: black;
+
+   margin: 0;
+
+   padding: 0;
+
+}
+.welcom{
+   font-size: 40px;
+   font-family: serif;
+   margin-top: 0;
+  color: white;
+   padding-top: 100px;
+   text-align: center   ;
+
+}
+.line{
+   width: 475px;
+   height: 3px;
+   background-color: white;
+   margin-left: 525px;
+   margin-top: -30px;
+}
+.con{
+     width: 350px;
+     height: 200px;
+     border-style: solid;
+     border-color: white;
+     border-width:1px ; 
+     margin-left: 120px;
+     margin-top: 80px;
+float :left;
+position: relative;
+overflow: hidden;  
+
+}
+.i1{
+   font-size: 50px;
+   margin-top: 20px;
+   margin-left: 155px;
+   color: blue;
+   z-index: 1;
+   position: relative;
+}
+.aa{
+   font-size: 30px;
+   text-align: center;
+   margin-top: 10px;
+color:rgb(129, 201, 225);
+position: relative;
+z-index: 1; /* Set the z-index to 1 to place it above the overlay */
+} 
+.enjoy{
+color: gray;
+text-align: center;
+font-size: larger;
+z-index: 1;
+position: relative;
+}
+
+.con::after {
+   content: "";
+   position: absolute;
+   top: 0; 
+ left: 0;
+
+   width: 0;
+   height: 100%;
+   background-color: rgba(128, 128, 128, 0.6); 
+   transition: width 0.5s;
+
+   z-index: 0;
+ }
+ .con:hover::after {
+   width: 100%;
+ }
+.con:hover .wtf{
+color: lightblue;
+   transition: color 1s;
+}
+.con:hover .aa{
+   color: white;
+      transition: color 1s;
+     
+   }
+   .wtf {
+      color: blue;
+      text-decoration: none;
+      font-size: 20px;
+      margin-left: 130px;
+      z-index: 1;
+      position: relative;
+    }

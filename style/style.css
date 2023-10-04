@@ -1,0 +1,124 @@
+body{
+
+margin: 0;
+padding: 0;
+    height: 6   050px;
+
+}
+.home{
+    background-image: url(../image/7PMNrC.jpeg);
+    height: 720px;
+    background-size: cover;
+    position: relative;
+ 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  z-index: 30;
+}
+.header {
+    width: 100% ;
+ 
+ 
+    overflow: auto;
+    position: fixed ;
+    top: 0 ; 
+    left: 0;
+   
+    opacity: 0.7 ;
+
+}
+.logo{
+    width: 110px;
+    height: 110px ;
+    margin-left: 50px;
+    float: left;
+    border-radius: 55px;
+    margin-top: 15px;
+}
+
+.list {
+    list-style-type: none ;
+    
+margin-left: 180px;
+margin-top: -70px;
+margin-bottom: 30px;
+margin-top: 50px;
+
+}
+
+
+.list   li {
+    display: block ;
+margin-left: -20px;
+    color: #fff;
+    font-size: 22px;
+    margin-right: 20px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+.list li a{
+    text-decoration: none ;
+    color: white;
+}
+.list :hover{
+font-size: larger;
+
+}
+.a{
+    text-align: center;
+    padding-top: 210px;
+ margin-right: 760px;
+    font-size:45px;
+  color:white;
+  font-family: algerian;
+
+
+
+}
+
+
+.b{
+    font-size: 20px;
+    color:white;
+    font-family: algerian;
+    margin-left: 130px;
+    margin-top: -20px;
+}
+.btn1{
+    width: 180px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.762);
+    margin-left: 190px ;  
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top:17px;
+    color:black;
+
+}
+.btn1:hover{
+    color:blue;
+    background-color: white;
+}
+.btn2:hover{
+    color:blue;
+    background-color: white;
+}
+.btn2{
+    width: 180px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.762);
+
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+  margin-left: 10px;
+    color:black;
+}
+
+
+

@@ -1,0 +1,37 @@
+.programer{
+    background-image: url(../image/662812.jpg);
+    position: relative;
+    height: 350px;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+margin-top: 0;
+padding-top: 0;
+}
+.programercontainer{
+    width: 50%;
+ 
+}
+.ben{
+   
+    float: left;
+    color: aliceblue;
+   margin: auto;
+   
+    padding-top: 70px;
+}
+.dddd{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+float: left;
+margin-left: 400px;
+}
+.content1{
+    margin-left: 520px;
+   
+}
+
+
+
+      

@@ -1,0 +1,141 @@
+.prices{
+    height: 700px;
+background-color: black;
+
+}
+.pt{
+color: white;
+text-align: center;
+font-size: 40px;
+margin-top: 0px;
+padding-top:50px ;
+}
+.pline{
+    width: 220px;
+height: 1px;
+background-color: white;
+margin:auto;
+margin-top: 4px;
+}
+
+    .qwer{
+        border-width: 1px;
+        border-style: solid;
+        border-color:white ;
+        width: 350px;
+        height: 400px;
+        margin: auto;  
+        margin-top: 70px; 
+        background-color: white;
+        border-radius: 20px;
+        background-image: url(../image/wp7009635.jpg);
+        background-size: cover;
+       
+     
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        
+    }
+    .qwer::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #0b0c0c;
+    transition: .5s;
+    opacity: .5;
+    }
+    .basic{
+        font-size: 30px;
+     margin: auto;   
+     margin-top: 20px;
+     color: white;
+     margin-right: 10px;
+    }
+    .circle{
+    width:150px;
+    height: 150px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:white;
+    border-radius: 50%;
+margin: auto;
+margin-top:10px ;
+    }
+    .dollar{
+    font-size: 50px;
+    margin-top:-1px ;
+    margin-top:40px ;
+    margin-left: 30px;
+    font-family: Arial;
+    color: white;
+    }
+    .month{
+       font-size: 25px; 
+       margin-top:-40px ;
+       margin-left: 37px;
+       font-family: Arial;
+    
+       color: white;
+
+}
+    .co{
+        text-align: center;
+        margin-top: 22px;
+        font-size: larger;
+        color: gray;
+
+    }
+    .pn{
+    border-width: 1px;
+    border-style: solid;
+    border-color:   white ;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top:10px ;
+    height: 20px;
+    color:lightblue;
+    }
+    .pn:hover{
+        
+    font-size: larger;
+    }
+    .qwe{
+        border-width: 1px;
+        border-style: solid;
+        border-color:white ;
+        width: 350px;
+        height: 400px;
+        background-image: url(../image/wp7009635.jpg);
+        background-size: cover;
+      
+     
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    margin-top: -400px;
+        background-color: white;
+        border-radius: 20px;
+       margin-left: 100px;
+    }
+    .qw{
+        
+        border-width: 1px;
+        border-style: solid;
+        border-color:white ;
+        width: 350px;
+        height: 400px;
+        float: right;
+        margin-top: -400px;
+        background-image: url(../image/wp7009635.jpg);
+        background-size: cover;
+    
+     
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        margin-right: 100px;
+    }
+   

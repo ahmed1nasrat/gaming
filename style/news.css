@@ -1,0 +1,174 @@
+.news{
+    height: 700px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.rn{
+padding-top: 30px;
+color: aliceblue;
+font-size: 40px;
+text-align: center;
+}
+.acmirage{
+    border-width: 2px;
+    border-style: solid;
+    border-color:white ;
+    width: 350px;
+    height: 500px;
+    margin: auto;  
+    margin-top: 70px; 
+    background-color: white;
+    
+  
+    background-size: cover;
+
+  
+
+    transition: 1s ;   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.lnm{
+    border-width: 2px;
+    border-style: solid;
+    border-color:white ;
+    width: 350px;
+    height: 500px;
+
+    background-size: cover;
+  
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+margin-top: -502px;
+    background-color: white;
+ 
+   margin-left: 100px;
+}
+.rd{
+        
+    border-width: 2px;
+    border-style: solid;
+    border-color:white ;
+    width: 350px;
+    height: 500px;
+    float: right;
+    margin-top: -501px;
+background-color: white;
+
+    
+    margin-right: 100px;
+}
+.miragephoto{
+  width: 350px;
+    height: 300px;
+    background-image: url(../image/Assassins\ Creed\ Mirage\ Wallpaper.jpeg);
+    background-size: cover;
+   
+   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.lnmphoto{
+    width: 350px;
+      height: 300px;
+      background-image: url(../image/nightmares3-1692881952367.jpg);
+      background-size: cover;
+     
+     
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+  }
+  .rdphoto{
+    width: 350px;
+      height: 300px;
+      background-image: url(../image/reddeadredemption3.jpg );
+      background-size: cover;
+     
+     
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+  }
+.newslist{
+    list-style-type: none ;
+    float: left;  
+    margin: auto;
+    margin-top: 20px; 
+    margin-left: 25px; 
+}
+.newli{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    color: gray;
+}
+
+
+
+.mcm{
+text-transform: capitalize;
+margin-left: 70px;
+margin-top:55px;
+font-size: 20px;
+color: black;
+font-weight: bolder;        
+
+}
+.mak{
+width: 100%;
+margin-top: -10px;
+color: gray;
+}
+.readm{
+    text-decoration: none;
+    color: blue;
+margin-bottom: -10px;
+font-size: 20px;
+margin: 40px 0 0 130px   ;
+
+}
+
+
+.newl{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    color: gray;
+}
+.newslis{
+    list-style-type: none ;
+    float: left;  
+    margin: auto;
+    margin-top: -17px; 
+    margin-left: 25px; 
+
+}
+.lnmm{
+    text-transform: capitalize;
+    margin-left: 90px;
+    margin-top:55px;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;     
+}
+
+.rdlist{
+   margin-left: 30px;
+ margin-top: 16.5px;
+}
+.rddd{
+    text-transform: capitalize;
+    margin-left: 70px;
+    margin-top:55px;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;    
+}
+.rdd{
+    margin-top: 18px;
+}
+
+
